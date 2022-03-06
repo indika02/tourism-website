@@ -1,0 +1,11 @@
+console.log(document.lastModified);
+console.log(document.charset);
+console.log(document.title);
+console.log(document.doctype);
+console.log(document.head);
+console.log(document.all);
+console.log(document.all[8]);
+console.log(document.forms);
+console.log(document.links);
+console.log(document.images);
+console.log(document.getElementById('gh'));

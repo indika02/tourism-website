@@ -1,0 +1,184 @@
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    font-family: calibri;
+    text-decoration: none;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 100%;
+    position: absoulte;
+    border-radius: 35px;
+    border: 3px solid yellow;
+    background-color: #000066;
+    margin: 5px;
+    font-weight: bold;
+}
+
+li a:hover {
+    background-color: #00b8e6;
+    text-decoration: none;
+}
+
+.dropdow {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdow .dropbtn {
+    font-size: 100%;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    padding: 14px 14px;
+    background-color: #000066;
+    font-family: calibri;
+    margin: 5px;
+    border-radius: 35px;
+    border: 3px solid yellow;
+}
+
+.dropdow:hover .drop {
+    background-color: #000066;
+    color: #00b8e6
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    font-weight: bold;
+    background-color: #000066;
+    padding: 12px 14px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.dropdown-content a:hover {
+    background-color: #00b8e6;
+}
+
+.navbar a:hover,
+.dropdow:hover .dropbtn {
+    background-color: #00b8e6;
+}
+
+.dropdow:hover .dropdown-content {
+    display: block;
+    background-color: #00b8e6;
+}
+
+body {
+    font-family: calibri;
+}
+
+ul.tablinks {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+ul.tablinks li {
+    display: inline;
+    padding: 14px 16px;
+    background: #ADFF2F;
+    font-weight: bold;
+}
+
+ul.tablinks li.active {
+    color: black;
+    background: lightgreen;
+}
+
+ul.tablinks li:hover {
+    background-color: yellow;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+    background-color: lightgreen;
+}
+
+.tabcontainer {
+    margin: 0px;
+}
+
+.contain {
+    background-color: lightgreen;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.d {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+h2 {
+    background-color: green;
+    color: white;
+}
+
+h3 {
+    background-color: none;
+    color: green;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+img {
+    box-shadow: 0 10px 10px;
+    width: 560px;
+    height: 315px;
+}
+
+FOOTER {
+    PADDING: 10PX;
+    COLOR: WHITE;
+    FONT-WEIGHT: BOLD;
+}
